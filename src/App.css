@@ -1,0 +1,222 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.custom-label .ant-form-item-label {
+  color: white !important; /* Ensures label is white */
+}
+
+/* App.css or any other styles */
+.hover-scale {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.03); /* Slight enlargement on hover */
+}
+.hover-scale2 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-scale2:hover {
+  transform: scale(1.01); /* Slight enlargement on hover */
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in-left {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.9s ease-in-out;
+}
+
+.animate-slide-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (max-width: 768px) {
+  .dynamic-height {
+    height: 1100px !important;
+  }
+}
+
+.responsive-logo {
+  width: 13%; /* Default width */
+}
+
+@media (max-width: 991.98px) { /* Small and medium devices */
+  .responsive-logo {
+    width: 30% !important; /* Override to 100% */
+  }
+} 
+
+.Contactbutton {
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+  color: white !important;
+  background-color: #f46a2f !important;
+  border: 1px solid #f46a2f !important;
+  /* padding: 20px !important; */
+
+}
+
+button.Contactbutton:hover {
+  background-color: white !important;
+  color: #f46a2f !important;
+  border: 1px solid #f46a2f
+}
+
+.Submitbutton {
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+  color: white !important;
+  background-color: #f46a2f !important;
+  border: 1px solid #f46a2f !important;
+}
+
+button.Submitbutton:hover {
+  transform: scale(1.05); /* Slight enlargement on hover */
+  border: 1px solid #f46a2f !important;
+
+}
+.fixed-icon {
+  position: fixed;
+  bottom: 20px;  /* Adjust this value to position the icon vertically */
+  right: 20px;   /* Adjust this value to position the icon horizontally */
+  z-index: 1000; /* Ensure the icon stays on top of other content */
+  
+  color: #25D366;
+
+}
+
+/* Hover effect for the "About" link */
+.footer-link {
+  color: white; /* Default color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scaling */
+}
+
+.footer-link:hover {
+  color: #F46A2F; /* Change color on hover */
+  text-decoration: underline; /* Underline the text on hover */
+  transform: scale(1.1); /* Scale up slightly */
+}
+
+
+/* Enables smooth scrolling globally */
+html {
+  scroll-behavior: smooth;
+}
+
+.responsive-logofooter {
+  width: 100%; /* Default width */
+}
+
+@media (max-width: 991.98px) { /* Small and medium devices */
+  .responsive-logofooter {
+    width: 40% !important; /* Override to 100% */
+  }
+} 
+
+@keyframes enquireAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);  /* Start from below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);     /* End at normal position */
+  }
+}
+
+.animate-enquire {
+  animation: enquireAnimation 2s ease-out forwards;  /* Apply the animation */
+}
+
+/* For your container, you can initialize with opacity 0 and translateY(50px) */
+.containeranimate {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 2s, transform 2s; /* Optional for smoother transition */
+}
+
+.sectionbackground-image {
+  background-image: url('./Images/Terminal.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Scales the image to cover the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.terminalresponsive-container {
+  backdrop-filter: 0px;
+  background: rgba(87, 87, 87, 0.4);
+  width: 80%;
+}
+
+/* For small and medium devices */
+@media (max-width: 768px) {
+  .terminalresponsive-container {
+    width: 100%;
+  }
+}
+
+.testimonialresponsive-div {
+  width: 95%;
+  height: 250px; /* Default height for large devices */
+}
+
+@media (max-width: 768px) {
+  /* For medium devices */
+  .testimonialresponsive-div {
+    height: 340px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For small devices */
+  .testimonialresponsive-div {
+    height: 370px;
+  }
+}
