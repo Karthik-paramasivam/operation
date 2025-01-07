@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/operation/static/css/main.e3c43100.css",
-    "main.js": "/operation/static/js/main.35daba64.js",
+    "main.js": "/operation/static/js/main.dacd4838.js",
     "static/js/488.c4785fdb.chunk.js": "/operation/static/js/488.c4785fdb.chunk.js",
     "static/media/Terminal.jpg": "/operation/static/media/Terminal.547f963ea62503f335c2.jpg",
     "static/media/WingsWayBanner.jpg": "/operation/static/media/WingsWayBanner.082418d90752081d1dd0.jpg",
@@ -15,11 +15,11 @@
     "static/media/slick.woff": "/operation/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/operation/index.html",
     "main.e3c43100.css.map": "/operation/static/css/main.e3c43100.css.map",
-    "main.35daba64.js.map": "/operation/static/js/main.35daba64.js.map",
+    "main.dacd4838.js.map": "/operation/static/js/main.dacd4838.js.map",
     "488.c4785fdb.chunk.js.map": "/operation/static/js/488.c4785fdb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3c43100.css",
-    "static/js/main.35daba64.js"
+    "static/js/main.dacd4838.js"
   ]
 }
