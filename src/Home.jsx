@@ -134,8 +134,8 @@ export default function Home() {
   // Handle form submission
   const handleSubmit = (values) => {
     // Log the values during the first submission, formData will be null initially
-    console.log(values);
-    setFormData(values); // Set form data after submission
+    // console.log(values);
+    // setFormData(values); // Set form data after submission
     message.success("Form submitted successfully!");
     setPhoneNumber(""); // Reset phone number field
     form.resetFields(); // Reset all fields
@@ -310,7 +310,7 @@ export default function Home() {
       <style>{styl}</style>
 
       <div className="container-fluid">
-        <div className="container-fluid border border-white m-0 p-0">
+        <div className="container-fluid m-0 p-0">
           <div className="row">
             <div
               className="col-12 dynamic-height"
@@ -616,31 +616,45 @@ export default function Home() {
             }`}
             ref={myRef1}
           >
-            <div className="col-12 mt-3 mt-lg-0 text-center">
+            {/* <div className="col-12 mt-3 mt-lg-0 text-center">
               <img
                 src={WingsBanner}
                 alt="WingsBanner Image"
-                className="img-fluid rounded-3 w-75 shadow"
+                className="img-fluid rounded-3 shadow w-100 w-lg-75"
               />
-            </div>
+            </div> */}
+            <div className="col-12 mt-3 mt-lg-0 text-center">
+  <img
+    src={WingsBanner}
+    alt="WingsBanner Image"
+    className="img-fluid rounded-3 shadow w-100 d-lg-none" // Ensures 100% width for small and medium devices
+  />
+  <img
+    src={WingsBanner}
+    alt="WingsBanner Image"
+    className="img-fluid rounded-3 shadow w-75 d-none d-lg-inline" // Ensures 75% width for large devices and above
+  />
+</div>
+
           </div>
         </div>
 
-        <div className="container mt-5 border border-white" id="career">
+        <div className="container mt-5 border border-white " id="career">
           {/* <div className="row "> */}
           <div
-            className={`row rounded-4 slide-in-left  ${
+            className={`row rounded-4 slide-in-left   ${
               hasViewedSlide.secondElement ? "animate-enquire" : ""
             }`}
+            style={{justifyContent:"center"}}
             ref={myRef2}
           >
-            <div className="col-12">
+            <div className="col-12 ">
               <p className="text-center mt-lg-3">
                 <span className="fw-bold fs-3 ">About the</span>
                 <span className="fw-bold fs-3 text-primary"> Course</span>
               </p>
             </div>
-            <div className="col-12 col-lg-5 rounded-3 mt-2 mt-lg-1 rounded-3 shadow ms-lg-5">
+            <div className="col-12 col-lg-5 rounded-3 mt-2 mt-lg-1 rounded-3 shadow p-3">
               <p className="text-center mt-lg-3">
                 <span className="fw-bold fs-3 ">Course </span>
                 <span className="fw-bold fs-3 text-primary">Content</span>
@@ -705,7 +719,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-5 mt-lg-1 rounded-3 shadow ms-lg-4 pe-3 pb-3">
+            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-5 mt-lg-1 rounded-3 shadow ms-lg-4 p-3">
               <p className="text-center mt-lg-3">
                 <span className="fw-bold fs-3 ">Learning </span>
                 <span className="fw-bold fs-3 text-primary">Outcomes</span>
@@ -757,9 +771,11 @@ export default function Home() {
               hasViewedSlide.thirdElement ? "animate-enquire" : ""
             }`}
             ref={myRef3}
+            style={{justifyContent:"center"}}
+
           >
             {" "}
-            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3  rounded-3 shadow ms-lg-5 ">
+            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3  rounded-3 shadow  p-3">
               <p className="text-center mt-lg-3">
                 <span className="fw-bold fs-3 ">Learner’s </span>
                 <span className="fw-bold fs-3 text-primary">Profile</span>
@@ -823,7 +839,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3 rounded-3 shadow ms-lg-4 pe-3 pb-3">
+            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3 rounded-3 shadow ms-lg-4 p-3">
               <p className="text-center mt-lg-3">
                 <span className="fw-bold fs-3 ">Career </span>
                 <span className="fw-bold fs-3 text-primary">Opportunities</span>
@@ -930,9 +946,11 @@ export default function Home() {
               hasViewedSlide.fourthElement ? "animate-enquire" : ""
             }`}
             ref={myRef4}
+            style={{justifyContent:"center"}}
+
           >
             {" "}
-            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3  rounded-3 shadow ms-lg-5 ">
+            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3  rounded-3 shadow p-3">
               <p className="text-center mt-lg-3">
                 <span className="fw-bold fs-3 ">Entry </span>
                 <span className="fw-bold fs-3 text-primary">Qualification</span>
@@ -973,7 +991,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3 rounded-3 shadow ms-lg-4 pe-3 pb-3">
+            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3 rounded-3 shadow ms-lg-4 p-3">
               <p className="text-center mt-lg-3">
                 <span className="fw-bold fs-3 ">Key </span>
                 <span className="fw-bold fs-3 text-primary">Topics</span>
@@ -1151,34 +1169,34 @@ export default function Home() {
         </div>
 
         <div
-          className="text-center"
+          className="container-fluid text-center m-0 p-0"
           style={{ backgroundColor: "#0a142f", color: "white" }}
         >
           <div
             className="row d-flex justify-content-center align-items-center mt-5 "
             style={{ backgroundColor: "#0a142f", color: "white" }}
           >
-            <div className="col-12 col-md-12 col-lg-2 d-flex flex-column align-items-center text-start ms-lg-5">
+            <div className="col-12 col-md-12 col-lg-2 d-flex flex-column align-items-center text-center ms-lg-5">
               <img
                 src={Footerlogo}
                 alt="logo"
-                className="img-fluid mt-3 responsive-logofooter  text-start"
+                className="img-fluid mt-3 responsive-logofooter text-center"
               />
             </div>
 
-            <div className="col-12 col-md-12 col-lg-2 text-center mt-lg-2 ms-lg-4 text-lg-start">
+            <div className="col-12 col-md-12 col-lg-2 text-center mt-lg-2 text-lg-center ">
               <a href="#coursediscription" className="footer-link">
                 <span>Course Description</span>
               </a>
             </div>
 
-            <div className="col-12 col-md-12 col-lg-2 mt-3 mt-md-3 text-center mt-lg-2 text-lg-start">
+            <div className="col-12 col-md-12 col-lg-2 mt-3 mt-md-3 text-center mt-lg-2 text-lg-center ">
               <a href="#banner" className="footer-link">
                 <span>About the course</span>
               </a>
             </div>
 
-            <div className="col-12 col-md-12 col-lg-2 mt-3 mt-md-3 text-center mt-lg-2 text-lg-start">
+            <div className="col-12 col-md-12 col-lg-2 mt-3 mt-md-3 text-center mt-lg-2 text-lg-center">
               <a href="#Testimonials" className="footer-link">
                 <span>Testimonial</span>
               </a>
@@ -1187,7 +1205,7 @@ export default function Home() {
             className="row "
             style={{ backgroundColor: "#0a142f", color: "white" }}
           >
-            <div className="col-12  text-center">
+            <div className="col-12 text-center" >
               <p>© 2023 WingsWay All rights reserved</p>
             </div>
           </div>
