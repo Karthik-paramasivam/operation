@@ -1205,7 +1205,7 @@ export default function Home() {
             className="row "
             style={{ backgroundColor: "#0a142f", color: "white" }}
           >
-            <div className="col-12 text-center" >
+            <div className="col-12 text-center mt-3 mt-lg-0 mb-3" >
               <p>© 2023 WingsWay All rights reserved</p>
             </div>
           </div>
