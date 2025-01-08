@@ -12,7 +12,6 @@
 // import Footerlogo from "./Images/Footerlogo.png";
 // import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
-
 // import {
 //   faCheck,
 //   faCircleCheck,
@@ -201,8 +200,8 @@
 //     return Promise.resolve();
 //   };
 //   const styl = `
-//   .ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-form-item-label >label, 
-//   .ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-col-24.ant-form-item-label >label, 
+//   .ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-form-item-label >label,
+//   .ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-col-24.ant-form-item-label >label,
 //   .ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-col-xl-24.ant-form-item-label >label {
 //     margin: 0;
 //     color: white;
@@ -490,7 +489,7 @@
 //             <div className="col-12">
 //               <div className="row">
 //                 <motion.div
-//                   ref={ref} 
+//                   ref={ref}
 //                   className="col-12 col-lg-6 "
 //                   initial={{ opacity: 0, x: -50 }}
 //                   animate={{
@@ -499,7 +498,6 @@
 //                   }}
 //                   transition={{ duration: 1 }}
 //                 >
-                
 
 //                   {/* Course Description */}
 //                   <div className="course-text">
@@ -583,7 +581,7 @@
 //                     </motion.ul>
 //                   </div>
 //                 </motion.div>
-              
+
 //                   <motion.div
 //                    className={`col-12 col-lg-6 m-auto border border-white  text-center`}
 //                   ref={myRef0}
@@ -594,7 +592,7 @@
 //                       type: "spring",
 //                       stiffness: 100,
 //                     }}
-                   
+
 //                   >
 //                     <img
 //                       src={Logo2}
@@ -603,7 +601,7 @@
 //                       style={{ width: "209px" }}
 //                     />
 //                   </motion.div>
-                
+
 //               </div>
 //             </div>
 //           </div>
@@ -1055,7 +1053,7 @@
 //               Enquire Now
 //             </Button> */}
 
-//             <button type="button" className="btn btn-lg text-center text-white Contactbutton mb-2 mb-lg-0" 
+//             <button type="button" className="btn btn-lg text-center text-white Contactbutton mb-2 mb-lg-0"
 //              onClick={() => {
 //                 window.location.href = "#"; // Simulate href="#" behavior
 //               }}
@@ -1150,7 +1148,6 @@
 //           </Slider>
 //         </div>
 
-        
 //         <div className="container-fluid ">
 //           <div className="row">
 //             <div className="col-12">
@@ -1216,7 +1213,6 @@
 //   );
 // }
 
-
 import React, { useState, useRef, useEffect } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -1230,7 +1226,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo2 from "./Images/Logo2.png";
 import Footerlogo from "./Images/Footerlogo.png";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-
 
 import {
   faCheck,
@@ -1254,7 +1249,7 @@ export default function Home() {
   });
 
   const [hasViewedSlide, setHasViewedSlide] = useState({
-    zeroElement:false,
+    zeroElement: false,
     myElement: false,
     secondElement: false,
     thirdElement: false,
@@ -1576,10 +1571,10 @@ export default function Home() {
                     Launch Your <br />
                     Airport Career
                   </h1>
-                  <h4 className="text-white fw-light" >
-                    Join our comprehensive IATA Airport Operations Fundamentals
+                  <h4 className="text-white fw-light">
+                    Join our comprehensive IATA Airport Operation Fundamentals
                     Course and gain the essential skills and knowledge to excel
-                    in airport operations.
+                    in airport operation.
                   </h4>
                 </motion.div>
 
@@ -1709,7 +1704,7 @@ export default function Home() {
             <div className="col-12">
               <div className="row">
                 <motion.div
-                  ref={ref} 
+                  ref={ref}
                   className="col-12 col-lg-6 "
                   initial={{ opacity: 0, x: -50 }}
                   animate={{
@@ -1718,8 +1713,6 @@ export default function Home() {
                   }}
                   transition={{ duration: 1 }}
                 >
-                
-
                   {/* Course Description */}
                   <div className="course-text">
                     <motion.p
@@ -1731,7 +1724,7 @@ export default function Home() {
                       <h1 className="text-start">
                         <span className="fw-bold  ">Course </span>
                         <span className="fw-bold  text-primary">
-                        Description
+                          Description
                         </span>
                       </h1>{" "}
                     </motion.p>
@@ -1739,12 +1732,12 @@ export default function Home() {
                       initial={{ opacity: 0 }}
                       animate={{ opacity: hasViewed ? 1 : 0 }}
                       transition={{ delay: 0.7, duration: 1 }}
-                      style={{textAlign:"justify"}}
+                      style={{ textAlign: "justify" }}
                     >
-                      The Airport Operation Fundamentals training course at
-                      WingsWay Training Institute offers a vital introduction to
-                      airport operations. In today’s competitive aviation
-                      landscape, efficiency and safety are paramount.
+                      The Airport Operation Fundamentals training at WingsWay
+                      Training Institute offers a vital introduction to airport
+                      operations. In the world of aviation, efficiency,
+                      accuracy, and safety are paramount.
                     </motion.p>
                     <motion.ul
                       initial={{ opacity: 0 }}
@@ -1764,9 +1757,9 @@ export default function Home() {
                           className="text-primary me-2 flex-shrink-0 mt-1"
                         />
                         <span>
-                          Our IATA airport operations course equips participants
-                          with the essential knowledge to ensure on-time
-                          performance and meet stakeholder needs.
+                          Our IATA-certified Airport Operation course equips
+                          participants with the knowledge to ensure on-time
+                          performance to meet stakeholder needs.
                         </span>{" "}
                       </motion.li>
                       <motion.li
@@ -1779,9 +1772,8 @@ export default function Home() {
                           icon={faCircleCheck}
                           className="text-primary me-2 flex-shrink-0 mt-1"
                         />
-                        As the industry evolves, this course is crucial for
-                        airports to equip employees and managers with the
-                        necessary skills and knowledge to thrive.
+                        This course will equip employees and managers with the
+                        skills needed to thrive in this dynamic field.
                       </motion.li>
                       <motion.li
                         initial={{ opacity: 0 }}
@@ -1793,36 +1785,33 @@ export default function Home() {
                           icon={faCircleCheck}
                           className="text-primary me-2 flex-shrink-0 mt-1"
                         />
-                        Enroll in the airport operation training course in Dubai
-                        is the most prominent training institute and secure 3
-                        guaranteed international internships*, grooming
-                        sessions, CV preparation, mock interview, job
+                        Enrol in the Airport Operation training in Dubai and
+                        secure guaranteed international internships*, grooming
+                        sessions, CV preparation, mock interview, job search
                         assistance, and much more.
                       </motion.li>
                     </motion.ul>
                   </div>
                 </motion.div>
-              
-                  <motion.div
-                   className={`col-12 col-lg-6 m-auto border border-white  text-center`}
+
+                <motion.div
+                  className={`col-12 col-lg-6 m-auto border border-white  text-center`}
                   ref={myRef0}
-                    initial={{ scale: 0 }}
-                    animate={{ scale: hasViewedSlide.zeroElement ? 1 : 0 }}
-                    transition={{
-                      duration: 0.8,
-                      type: "spring",
-                      stiffness: 100,
-                    }}
-                   
-                  >
-                    <img
-                      src={Logo2}
-                      alt="Logo2 Image"
-                      className="img-fluid rounded-3 mt-5 mt-lg-0 hover-scale"
-                      style={{ width: "209px" }}
-                    />
-                  </motion.div>
-                
+                  initial={{ scale: 0 }}
+                  animate={{ scale: hasViewedSlide.zeroElement ? 1 : 0 }}
+                  transition={{
+                    duration: 0.8,
+                    type: "spring",
+                    stiffness: 100,
+                  }}
+                >
+                  <img
+                    src={Logo2}
+                    alt="Logo2 Image"
+                    className="img-fluid rounded-3 mt-5 mt-lg-0 hover-scale"
+                    style={{ width: "209px" }}
+                  />
+                </motion.div>
               </div>
             </div>
           </div>
@@ -1843,18 +1832,17 @@ export default function Home() {
               />
             </div> */}
             <div className="col-12 mt-3 mt-lg-0 text-center">
-  <img
-    src={WingsBanner}
-    alt="WingsBanner Image"
-    className="img-fluid rounded-3 shadow w-100 d-lg-none" // Ensures 100% width for small and medium devices
-  />
-  <img
-    src={WingsBanner}
-    alt="WingsBanner Image"
-    className="img-fluid rounded-3 shadow w-75 d-none d-lg-inline" // Ensures 75% width for large devices and above
-  />
-</div>
-
+              <img
+                src={WingsBanner}
+                alt="WingsBanner Image"
+                className="img-fluid rounded-3 shadow w-100 d-lg-none" // Ensures 100% width for small and medium devices
+              />
+              <img
+                src={WingsBanner}
+                alt="WingsBanner Image"
+                className="img-fluid rounded-3 shadow w-75 d-none d-lg-inline" // Ensures 75% width for large devices and above
+              />
+            </div>
           </div>
         </div>
 
@@ -1864,7 +1852,7 @@ export default function Home() {
             className={`row rounded-4 slide-in-left   ${
               hasViewedSlide.secondElement ? "animate-enquire" : ""
             }`}
-            style={{justifyContent:"center"}}
+            style={{ justifyContent: "center" }}
             ref={myRef2}
           >
             <div className="col-12 ">
@@ -1955,8 +1943,10 @@ export default function Home() {
                     icon={faCircleCheck}
                     className="text-primary me-2 flex-shrink-0 mt-1"
                   />
-                  Explore Aviation history and how airports drive economic
-                  growth
+                  {/* <span className="fw-bold ">a. </span>{" "} */}
+                  <span>
+                    Aviation history and how airports drive economic growth
+                  </span>
                 </li>
                 <li className="ms-lg-2 d-flex align-items-start mt-1">
                   {" "}
@@ -1964,7 +1954,8 @@ export default function Home() {
                     icon={faCircleCheck}
                     className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
                   />
-                  Learn about various airport customers and partners
+                  {/* <span className="fw-bold ">b. </span>{" "} */}
+                  <span >Airport customers and partners</span>
                 </li>
                 <li className="ms-lg-2 d-flex align-items-start mt-1">
                   {" "}
@@ -1972,7 +1963,10 @@ export default function Home() {
                     icon={faCircleCheck}
                     className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
                   />
-                  Understand the many jobs and business aspects of airports
+                  {/* <span className="fw-bold ">c. </span>{" "} */}
+                  <span>
+                    Jobs and the business aspect of airports
+                  </span>
                 </li>
                 <li className="ms-lg-2 d-flex align-items-start mt-1">
                   {" "}
@@ -1980,7 +1974,10 @@ export default function Home() {
                     icon={faCircleCheck}
                     className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
                   />
-                  Get the tools to use your skills in an airport setting{" "}
+                  {/* <span className="fw-bold ">d. </span>{" "} */}
+                  <span >
+                    How to use your skills in an airport setting
+                  </span>
                 </li>
               </ul>
             </div>
@@ -1990,8 +1987,7 @@ export default function Home() {
               hasViewedSlide.thirdElement ? "animate-enquire" : ""
             }`}
             ref={myRef3}
-            style={{justifyContent:"center"}}
-
+            style={{ justifyContent: "center" }}
           >
             {" "}
             <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3  rounded-3 shadow  p-3">
@@ -2064,9 +2060,9 @@ export default function Home() {
                 <span className="fw-bold fs-3 text-primary">Opportunities</span>
               </p>
               <p className="ms-3">
-                After completing our IATA-certified airport operations course
+                After completing our IATA-certified airport operation course
                 online, offline, or in hybrid mode, you’ll qualify for various
-                worldwide job roles. Some are listed below.
+                jobs worldwide. Some of them are listed below:
               </p>
               <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
                 <li className="ms-lg-3 d-flex align-items-start mt-1">
@@ -2165,8 +2161,7 @@ export default function Home() {
               hasViewedSlide.fourthElement ? "animate-enquire" : ""
             }`}
             ref={myRef4}
-            style={{justifyContent:"center"}}
-
+            style={{ justifyContent: "center" }}
           >
             {" "}
             <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3  rounded-3 shadow p-3">
@@ -2217,7 +2212,7 @@ export default function Home() {
               </p>
               <p className="ms-3">
                 Here are some key topics you’ll explore in the online airport
-                operations course at WingsWay Training Institute.
+                operation course at WingsWay Training Institute:
               </p>
               <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
                 <li className="ms-lg-3 d-flex align-items-start mt-1">
@@ -2274,14 +2269,139 @@ export default function Home() {
               Enquire Now
             </Button> */}
 
-            <button type="button" className="btn btn-lg text-center text-white Contactbutton mb-2 mb-lg-0" 
-             onClick={() => {
+            <button
+              type="button"
+              className="btn btn-lg text-center text-white Contactbutton mb-2 mb-lg-0"
+              onClick={() => {
                 window.location.href = "#"; // Simulate href="#" behavior
               }}
-            >Enquire Now</button>
-
+            >
+              Enquire Now
+            </button>
           </div>
         </div>
+
+        <div className="container mt-5">
+            <div className="row">
+            <div className="col-12 ">
+              <h1 className="text-center mt-lg-3">
+                <span className="fw-bold ">Why Choose WingsWay for </span>
+                
+                <span className="fw-bold text-primary"> Airport Operation Fundamentals ?</span>
+              </h1>
+            </div>
+            <div
+            className={`row mt-3 rounded-4 slide-in-left  ${
+              hasViewedSlide.fourthElement ? "animate-enquire" : ""
+            }`}
+            ref={myRef4}
+            style={{ justifyContent: "center" }}
+          >
+            {" "}
+            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3  rounded-3 shadow p-3">
+              <p className="text-center mt-lg-3">
+                <span className="fw-bold fs-3 ms-0">Recognitions and</span>
+                <span className="fw-bold fs-3 text-primary "> Qualifications:</span>
+              </p>
+              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
+                <li className="ms-lg-3 d-flex align-items-start mt-1">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 flex-shrink-0 mt-1"
+                  />
+                     <div>
+                    <span style={{ fontWeight: "bold" }}>
+                    IATA Certified:
+                    </span>{" "}
+                    <span className="d-block d-sm-inline">
+                    Our courses are recognised by the International Air Transport Association, ensuring industry relevance and international recognition.
+                    </span>
+                  </div>
+                </li>
+                <li className="ms-lg-2 d-flex align-items-start mt-1">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
+                  />
+                 <div>
+                    <span style={{ fontWeight: "bold" }}>
+                    KHDA Approved:
+                    </span>{" "}
+                    <span className="d-block d-sm-inline">
+                    Our courses meet the high standards set by the Knowledge and Human Development Authority for private education.
+                    </span>
+                  </div>
+                </li>
+                <li className="ms-lg-2 d-flex align-items-start mt-1">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
+                  />
+                   <div>
+                    <span style={{ fontWeight: "bold" }}>
+                    ISO 9001:2015 Certified:
+                    </span>{" "}
+                    <span className="d-block d-sm-inline">
+                    We are committed to quality management and continuous improvement.
+                    </span>
+                  </div>
+                </li>
+              
+              </ul>
+            </div>
+            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3 rounded-3 shadow ms-lg-4 p-3">
+              <p className="text-center mt-lg-3">
+                <span className="fw-bold fs-3 ms-0">Trusted by  </span>
+                <span className="fw-bold fs-3 text-primary ">Students Worldwide:</span>
+              </p>
+              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
+                <li className="ms-lg-3 d-flex align-items-start mt-1">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 flex-shrink-0 mt-1"
+                  />
+                     <div>
+                    <span style={{ fontWeight: "bold" }}>
+                    Diverse Student Base:
+                    </span>{" "}
+                    <span className="d-block d-sm-inline">
+                    Join our community of students from over 80 nationalities.
+                    </span>
+                  </div>
+                </li>
+                <li className="ms-lg-2 d-flex align-items-start mt-1">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
+                  />
+                 <div>
+                    <span style={{ fontWeight: "bold" }}>
+                    Extensive Course Offerings:
+                    </span>{" "}
+                    <span className="d-block d-sm-inline">
+                Explore over 250 courses designed to enhance your skills and career prospects.
+                    </span>
+                  </div>
+                </li>
+                
+                <li className="ms-lg-2 d-flex align-items-start mt-1">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
+                  />
+                  Choose WingsWay for a trusted and globally recognised educational experience in airport operation fundamentals.{" "}
+                </li>
+              </ul>
+            </div>
+          </div>
+            </div>
+          </div>
 
         <div
           className={` container mt-5 border border-white  rounded-4 slide-in-left   ${
@@ -2292,12 +2412,16 @@ export default function Home() {
         >
           <div className="row border-primary ">
             <div className="col-12 text-center mb-4">
-              <h1 className="fw-bold">
+              {/* <h1 className="fw-bold">
                 <span className="fw-bold  ">Hear From Our</span>
                 <span className="fw-bold " style={{ color: "#022E88" }}>
                   {" "}
                   Students
                 </span>
+              </h1> */}
+               <h1 className="fw-bold">
+                <span className="fw-bold  ">Testimonials</span>
+              
               </h1>
             </div>
           </div>
@@ -2310,10 +2434,7 @@ export default function Home() {
               <div className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 testimonialresponsive-div">
                 <h3 className="text-center mt-5">Goldiee Boii </h3>
                 <p className=" mt-3 text-center">
-                  All the teachers are understanding and I get time to time
-                  doubt sessions and really available for the help for the
-                  students at any time of the day. The course is really helpful
-                  for the future minds for youngsters.
+                  It was an amazing experience to study at WingsWay. The instructors and administrators were all industry professionals at the top of their field
                 </p>
               </div>
             </div>
@@ -2321,9 +2442,7 @@ export default function Home() {
               <div className=" p-3 shadow-sm border border-light rounded-3 ms-md-2 ms-lg-4 ms-2 mt-2 testimonialresponsive-div">
                 <h4 className="text-center mt-5">Fahad Abdul Kareem</h4>
                 <p className="text-center">
-                  It was an amazing experience to study at wingsway. The
-                  instructors and administrators were all industry professionals
-                  at the top of their field
+                It was an amazing experience to study at WingsWay. The instructors and administrators were all industry professionals at the top of their field.
                 </p>
               </div>
             </div>
@@ -2331,11 +2450,7 @@ export default function Home() {
               <div className="p-3 shadow-sm border border-light rounded-3 ms-lg-4 ms-2 mt-2 testimonialresponsive-div">
                 <h4 className="text-center mt-5">Shubham</h4>
                 <p className="text-center">
-                  I have been training in Wings Way Institude for last 3 months,
-                  and believe me it's the best Institude I have been to, the
-                  teachers r so friendly and the the sessions which they keep
-                  are super great and innovative, I will personally recommend
-                  this institude to everyone
+                I have been training in WingsWay Training Institute for last 3 months and believe me it's the best institute I have been to. The teachers are so friendly and the sessions which they keep are super great and innovative. I will personally recommend this institute to everyone.
                 </p>
               </div>
             </div>
@@ -2343,9 +2458,7 @@ export default function Home() {
               <div className="p-3 shadow-sm border border-light rounded-3 ms-md-2 ms-lg-4 ms-2 mt-2 testimonialresponsive-div">
                 <h4 className="text-center mt-5">Fais Badar</h4>
                 <p className="text-center">
-                  Wings Way institute was one of the best decisions of my life.
-                  Their teaching skills , helping out the students with classes
-                  , cv . Internships. Their support is commendable.
+                WingsWay Training Institute was one of the best decisions of my life. Their teaching skills, helping out the students with classes, CV, internships. Their support is commendable.
                 </p>
               </div>
             </div>
@@ -2356,20 +2469,13 @@ export default function Home() {
                 </h4>
                 <p className="text-center">
                   {" "}
-                  A good teacher can awaken joy in their students and leave a
-                  positive impression that lasts a lifetime, What we learn with
-                  pleasure, we never forget from WingsWay Training Institute LLC
-                  and much appreciate and A great teacher inspires hope, ignites
-                  the imagination, and instills a love of learning.Thank you
-                  WingsWay Training Institute Team for all the support and guide
-                  in next level.
+                  A good teacher can awaken joy in their students and leave a positive impression that lasts a lifetime. What we learn with pleasure, we never forget, and I appreciate WingsWay Training Institute LLC. A great teacher inspires hope, ignites the imagination, and instills a love of learning. Thank you WingsWay Training Institute team for all the support and guidance in next level.
                 </p>
               </div>
             </div>
           </Slider>
         </div>
 
-        
         <div className="container-fluid ">
           <div className="row">
             <div className="col-12">
@@ -2421,13 +2527,13 @@ export default function Home() {
               </a>
             </div>
             <div
-            className="row "
-            style={{ backgroundColor: "#0a142f", color: "white" }}
-          >
-            <div className="col-12 text-center mt-3 mt-lg-0 mb-3" >
-              <p>© 2023 WingsWay All rights reserved</p>
+              className="row "
+              style={{ backgroundColor: "#0a142f", color: "white" }}
+            >
+              <div className="col-12 text-center mt-3 mt-lg-0 mb-3">
+                <p>© 2023 WingsWay All rights reserved</p>
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
