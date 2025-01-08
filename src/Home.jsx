@@ -486,7 +486,7 @@ export default function Home() {
 
         <div className="container mt-5" id="coursediscription">
           <div className="row border border-white m-auto">
-            <div className="col-12">
+            <div className="col-12 ">
               <div className="row">
                 <motion.div
                   ref={ref}
@@ -504,7 +504,7 @@ export default function Home() {
                       initial={{ opacity: 0 }}
                       animate={{ opacity: hasViewed ? 1 : 0 }}
                       transition={{ delay: 0.5, duration: 1 }}
-                      className="course-title fs-3 fw-bold"
+                      className="course-title fs-3 fw-bold "
                     >
                       <h1 className="text-start">
                         <span className="fw-bold  ">Course </span>
@@ -513,7 +513,7 @@ export default function Home() {
                         </span>
                       </h1>{" "}
                     </motion.p>
-                    <motion.p
+                    {/* <motion.p
                       initial={{ opacity: 0 }}
                       animate={{ opacity: hasViewed ? 1 : 0 }}
                       transition={{ delay: 0.7, duration: 1 }}
@@ -523,7 +523,7 @@ export default function Home() {
                       Training Institute offers a vital introduction to airport
                       operations. In the world of aviation, efficiency,
                       accuracy, and safety are paramount.
-                    </motion.p>
+                    </motion.p> */}
                     <motion.ul
                       initial={{ opacity: 0 }}
                       animate={{ opacity: hasViewed ? 1 : 0 }}
@@ -542,23 +542,23 @@ export default function Home() {
                           className="text-primary me-2 flex-shrink-0 mt-1"
                         />
                         <span>
-                          Our IATA-certified Airport Operation course equips
-                          participants with the knowledge to ensure on-time
-                          performance to meet stakeholder needs.
+                        The Airport Operation Fundamentals training at WingsWay Training Institute offers a vital introduction to airport operations. In the world of aviation, efficiency, accuracy, and safety are paramount.
                         </span>{" "}
                       </motion.li>
+
                       <motion.li
                         initial={{ opacity: 0 }}
                         animate={{ opacity: hasViewed ? 1 : 0 }}
                         transition={{ delay: 1.0, duration: 0.5 }}
-                        className="d-flex align-items-start mt-1"
+                        className="d-flex align-items-start "
                       >
                         <FontAwesomeIcon
                           icon={faCircleCheck}
                           className="text-primary me-2 flex-shrink-0 mt-1"
                         />
-                        This course will equip employees and managers with the
-                        skills needed to thrive in this dynamic field.
+                        <span>
+                        Our IATA-certified Airport Operations course equips participants with the knowledge to ensure on-time performance to meet stakeholder needs.
+                        </span>{" "}
                       </motion.li>
                       <motion.li
                         initial={{ opacity: 0 }}
@@ -570,10 +570,19 @@ export default function Home() {
                           icon={faCircleCheck}
                           className="text-primary me-2 flex-shrink-0 mt-1"
                         />
-                        Enrol in the Airport Operation training in Dubai and
-                        secure guaranteed international internships*, grooming
-                        sessions, CV preparation, mock interview, job search
-                        assistance, and much more.
+                        This course will equip employees and managers with the skills needed to thrive in this dynamic field.
+                      </motion.li>
+                      <motion.li
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: hasViewed ? 1 : 0 }}
+                        transition={{ delay: 1.2, duration: 0.5 }}
+                        className="d-flex align-items-start mt-1"
+                      >
+                        <FontAwesomeIcon
+                          icon={faCircleCheck}
+                          className="text-primary me-2 flex-shrink-0 mt-1"
+                        />
+                       Enrol in the Airport Operation training in Dubai and secure guaranteed international internships*, grooming sessions, CV preparation, mock interview, job search assistance, and much more.
                       </motion.li>
                     </motion.ul>
                   </div>
@@ -593,7 +602,7 @@ export default function Home() {
                   <img
                     src={Logo2}
                     alt="Logo2 Image"
-                    className="img-fluid rounded-3 mt-5 mt-lg-0 hover-scale"
+                    className="img-fluid rounded-3 mt-5  mt-lg-0 hover-scale"
                     style={{ width: "209px" }}
                   />
                 </motion.div>
