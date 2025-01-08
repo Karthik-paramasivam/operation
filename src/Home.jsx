@@ -771,7 +771,7 @@ export default function Home() {
             style={{ justifyContent: "center" }}
           >
             {" "}
-            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-4 mt-lg-3 rounded-3 shadow  p-3">
+            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-4 mt-lg-2 rounded-3 shadow  p-3">
               <p className="text-center mt-lg-3">
                 <span className="fw-bold fs-3 ">Learner’s </span>
                 <span className="fw-bold fs-3 text-primary">Profile</span>
@@ -835,7 +835,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="col-12 col-md-12 col-lg-5 rounded-3  mt-4 mt-lg-3  rounded-3 shadow ms-lg-4 p-3">
+            <div className="col-12 col-md-12 col-lg-5 rounded-3  mt-5 mt-lg-2  rounded-3 shadow ms-lg-4 p-3">
               <p className="text-center mt-lg-3">
                 <span className="fw-bold fs-3 ">Career </span>
                 <span className="fw-bold fs-3 text-primary">Opportunities</span>
@@ -945,7 +945,7 @@ export default function Home() {
             style={{ justifyContent: "center" }}
           >
             {" "}
-            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-4 mt-lg-3 rounded-3 shadow p-3">
+            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-4 mt-lg-2 rounded-3 shadow p-3">
               <p className="text-center mt-lg-3">
                 <span className="fw-bold fs-3 ">Entry </span>
                 <span className="fw-bold fs-3 text-primary">Qualification</span>
@@ -986,7 +986,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="col-12 col-md-12 col-lg-5 rounded-3  mt-4 mt-lg-3 rounded-3 shadow ms-lg-4 p-3">
+            <div className="col-12 col-md-12 col-lg-5 rounded-3  mt-5 mt-lg-3 rounded-3 shadow ms-lg-4 p-3">
               <p className="text-center mt-lg-3">
                 <span className="fw-bold fs-3 ">Key </span>
                 <span className="fw-bold fs-3 text-primary">Topics</span>
