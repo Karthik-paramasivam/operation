@@ -268,7 +268,7 @@ export default function Home() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     cssEase: "linear",
     autoplaySpeed: 4000,
     // initialSlide: 0,
