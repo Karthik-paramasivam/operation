@@ -134,7 +134,7 @@ export default function Home() {
   const handleSubmit = (values) => {
     // Log the values during the first submission, formData will be null initially
     // console.log(values);
-    // setFormData(values); // Set form data after submission
+    setFormData(values); // Set form data after submission
     message.success("Form submitted successfully!");
     setPhoneNumber(""); // Reset phone number field
     form.resetFields(); // Reset all fields
@@ -268,7 +268,7 @@ export default function Home() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     cssEase: "linear",
     autoplaySpeed: 4000,
     // initialSlide: 0,
@@ -1229,15 +1229,13 @@ export default function Home() {
               <div className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-0 ms-2 testimonialresponsive-div">
                 <h3 className="text-center mt-5">Goldiee Boii </h3>
                 <p className=" mt-3 text-center">
-                  It was an amazing experience to study at WingsWay. The
-                  instructors and administrators were all industry professionals
-                  at the top of their field
+                All the teachers are understanding and I get time to time doubt sessions and really available for the help for the students at any time of the day. The course is really helpful for the future minds for youngsters.
                 </p>
               </div>
             </div>
             <div>
               <div className=" p-3 shadow-sm border border-light rounded-3 ms-md-2 ms-lg-4 ms-2 mt-0 testimonialresponsive-div">
-                <h4 className="text-center mt-5">Fahad Abdul Kareem</h4>
+                <h3 className="text-center mt-5">Fahad Abdul Kareem</h3>
                 <p className="text-center">
                   It was an amazing experience to study at WingsWay. The
                   instructors and administrators were all industry professionals
@@ -1247,7 +1245,7 @@ export default function Home() {
             </div>
             <div>
               <div className="p-3 shadow-sm border border-light rounded-3 ms-lg-4 ms-2 mt-0 testimonialresponsive-div">
-                <h4 className="text-center mt-5">Shubham</h4>
+                <h3 className="text-center mt-5">Shubham</h3>
                 <p className="text-center">
                   I have been training in WingsWay Training Institute for last 3
                   months and believe me it's the best institute I have been to.
@@ -1259,7 +1257,7 @@ export default function Home() {
             </div>
             <div>
               <div className="p-3 shadow-sm border border-light rounded-3 ms-md-2 ms-lg-4 ms-2 mt-0 testimonialresponsive-div">
-                <h4 className="text-center mt-5">Fais Badar</h4>
+                <h3 className="text-center mt-5">Fais Badar</h3>
                 <p className="text-center">
                   WingsWay Training Institute was one of the best decisions of
                   my life. Their teaching skills, helping out the students with
@@ -1269,9 +1267,9 @@ export default function Home() {
             </div>
             <div>
               <div className="p-3 shadow-sm border border-light rounded-3 ms-lg-4 mb-1 ms-2 mt-0 testimonialresponsive-div">
-                <h4 className="text-center mt-md-5 mt-lg-3 mt-4">
+                <h3 className="text-center mt-md-5 mt-lg-3 mt-4">
                   Sk Arif Hussain
-                </h4>
+                </h3>
                 <p className="text-center">
                   {" "}
                   A good teacher can awaken joy in their students and leave a
